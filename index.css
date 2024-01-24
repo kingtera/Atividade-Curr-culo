@@ -1,4 +1,48 @@
 body {
     background-color: rgb(255, 241, 241);
     font-family: Poppins, sans-serif;
+
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: 250ms;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.descricao {
+    display: flex;
+    align-items: baseline;
+    gap: 240px;
+}
+
+.sobre_mim {
+    width: 60%;
+}
+
+.titulo_lista {
+    font-weight: bold;
+    font-size: 18px;
 }
